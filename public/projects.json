@@ -56,9 +56,9 @@
         "prototype ready",
         "workflow automation"
       ],
-      "stars": 3812,
+      "stars": 3821,
       "forks": 364,
-      "updatedAt": "2026-07-20",
+      "updatedAt": "2026-07-22",
       "score": 86
     },
     {
@@ -75,9 +75,9 @@
         "agent operations",
         "agent orchestration"
       ],
-      "stars": 5798,
-      "forks": 5,
-      "updatedAt": "2026-07-20",
+      "stars": 5806,
+      "forks": 13,
+      "updatedAt": "2026-07-22",
       "score": 92
     },
     {
@@ -95,9 +95,9 @@
         "autogpt",
         "autonomous agents"
       ],
-      "stars": 28963,
-      "forks": 3200,
-      "updatedAt": "2026-07-09",
+      "stars": 28996,
+      "forks": 3216,
+      "updatedAt": "2026-07-22",
       "score": 95
     },
     {
@@ -115,9 +115,9 @@
         "ai detection",
         "ai humanizer"
       ],
-      "stars": 280,
-      "forks": 32,
-      "updatedAt": "2026-07-10",
+      "stars": 285,
+      "forks": 31,
+      "updatedAt": "2026-07-21",
       "score": 78
     },
     {
@@ -135,9 +135,9 @@
         "reinforcement learning",
         "workflow automation"
       ],
-      "stars": 10498,
-      "forks": 89,
-      "updatedAt": "2026-07-20",
+      "stars": 10514,
+      "forks": 962,
+      "updatedAt": "2026-07-22",
       "score": 83
     },
     {
@@ -155,9 +155,9 @@
         "code interpreter",
         "copilot"
       ],
-      "stars": 13056,
-      "forks": 966,
-      "updatedAt": "2026-07-17",
+      "stars": 13067,
+      "forks": 968,
+      "updatedAt": "2026-07-22",
       "score": 94
     },
     {
@@ -175,9 +175,9 @@
         "agent framework",
         "low-code"
       ],
-      "stars": 149551,
-      "forks": 14000,
-      "updatedAt": "2026-07-19",
+      "stars": 149697,
+      "forks": 23588,
+      "updatedAt": "2026-07-22",
       "score": 97
     },
     {
@@ -195,9 +195,9 @@
         "openai compatible",
         "quantization"
       ],
-      "stars": 176542,
-      "forks": 11000,
-      "updatedAt": "2026-07-20",
+      "stars": 176607,
+      "forks": 17054,
+      "updatedAt": "2026-07-22",
       "score": 96
     },
     {
@@ -215,9 +215,9 @@
         "collaboration",
         "hand-drawn"
       ],
-      "stars": 85000,
-      "forks": 8000,
-      "updatedAt": "2026-07-20",
+      "stars": 128068,
+      "forks": 14501,
+      "updatedAt": "2026-07-22",
       "score": 90
     },
     {
@@ -235,9 +235,9 @@
         "outliner",
         "local-first"
       ],
-      "stars": 33000,
-      "forks": 2000,
-      "updatedAt": "2026-07-18",
+      "stars": 44012,
+      "forks": 2733,
+      "updatedAt": "2026-07-22",
       "score": 85
     },
     {
@@ -255,9 +255,9 @@
         "tutorials",
         "roadmap"
       ],
-      "stars": 230000,
-      "forks": 30000,
-      "updatedAt": "2026-07-20",
+      "stars": 274633,
+      "forks": 35391,
+      "updatedAt": "2026-07-22",
       "score": 93
     },
     {
@@ -275,9 +275,9 @@
         "reference",
         "prototyping"
       ],
-      "stars": 330000,
-      "forks": 35000,
-      "updatedAt": "2026-07-20",
+      "stars": 451855,
+      "forks": 49734,
+      "updatedAt": "2026-07-22",
       "score": 92
     },
     {
@@ -295,9 +295,9 @@
         "image generation",
         "local"
       ],
-      "stars": 60000,
-      "forks": 6500,
-      "updatedAt": "2026-07-21",
+      "stars": 121737,
+      "forks": 14345,
+      "updatedAt": "2026-07-22",
       "score": 91
     },
     {
@@ -315,9 +315,9 @@
         "easy-to-use",
         "presets"
       ],
-      "stars": 45000,
-      "forks": 7000,
-      "updatedAt": "2026-07-19",
+      "stars": 51140,
+      "forks": 8294,
+      "updatedAt": "2026-07-22",
       "score": 88
     },
     {
@@ -335,9 +335,9 @@
         "no-code",
         "self-hosted"
       ],
-      "stars": 60000,
-      "forks": 7000,
-      "updatedAt": "2026-07-21",
+      "stars": 197392,
+      "forks": 59524,
+      "updatedAt": "2026-07-22",
       "score": 90
     },
     {
@@ -355,9 +355,9 @@
         "low-code",
         "rag"
       ],
-      "stars": 50000,
-      "forks": 5000,
-      "updatedAt": "2026-07-21",
+      "stars": 152178,
+      "forks": 9621,
+      "updatedAt": "2026-07-22",
       "score": 87
     },
     {
@@ -375,9 +375,9 @@
         "catalog",
         "reusable"
       ],
-      "stars": 21600,
-      "forks": 2000,
-      "updatedAt": "2026-07-21",
+      "stars": 24035,
+      "forks": 1633,
+      "updatedAt": "2026-07-22",
       "score": 95
     },
     {
@@ -395,9 +395,9 @@
         "plugins",
         "directory"
       ],
-      "stars": 4900,
-      "forks": 400,
-      "updatedAt": "2026-07-18",
+      "stars": 4918,
+      "forks": 348,
+      "updatedAt": "2026-07-22",
       "score": 84
     },
     {
@@ -415,9 +415,9 @@
         "plugins",
         "registry"
       ],
-      "stars": 9000,
-      "forks": 800,
-      "updatedAt": "2026-07-20",
+      "stars": 9195,
+      "forks": 1429,
+      "updatedAt": "2026-07-22",
       "score": 89
     },
     {
@@ -435,9 +435,9 @@
         "official",
         "reusable"
       ],
-      "stars": 5200,
-      "forks": 480,
-      "updatedAt": "2026-07-20",
+      "stars": 163229,
+      "forks": 19356,
+      "updatedAt": "2026-07-22",
       "score": 95
     },
     {
@@ -455,9 +455,9 @@
         "awesome",
         "directory"
       ],
-      "stars": 1200,
-      "forks": 90,
-      "updatedAt": "2026-07-20",
+      "stars": 68411,
+      "forks": 7770,
+      "updatedAt": "2026-07-22",
       "score": 86
     },
     {
@@ -475,9 +475,9 @@
         "research",
         "custom"
       ],
-      "stars": 45,
-      "forks": 8,
-      "updatedAt": "2026-07-20",
+      "stars": 0,
+      "forks": 0,
+      "updatedAt": "2026-04-06",
       "score": 80
     },
     {
@@ -495,9 +495,9 @@
         "workflow",
         "multi-domain"
       ],
-      "stars": 480,
-      "forks": 35,
-      "updatedAt": "2026-07-18",
+      "stars": 78,
+      "forks": 16,
+      "updatedAt": "2026-07-22",
       "score": 84
     },
     {
@@ -515,9 +515,9 @@
         "awesome",
         "mcp"
       ],
-      "stars": 210,
-      "forks": 18,
-      "updatedAt": "2026-07-18",
+      "stars": 129,
+      "forks": 15,
+      "updatedAt": "2026-07-21",
       "score": 79
     },
     {
@@ -536,8 +536,8 @@
         "subagent",
         "methodology"
       ],
-      "stars": 258835,
-      "forks": 23073,
+      "stars": 258854,
+      "forks": 23075,
       "updatedAt": "2026-07-22",
       "score": 99
     },
@@ -557,7 +557,7 @@
         "skills",
         "cross-platform"
       ],
-      "stars": 231923,
+      "stars": 231930,
       "forks": 35386,
       "updatedAt": "2026-07-22",
       "score": 98
@@ -577,7 +577,7 @@
         "awesome",
         "directory"
       ],
-      "stars": 50590,
+      "stars": 50593,
       "forks": 4401,
       "updatedAt": "2026-07-22",
       "score": 95
@@ -597,7 +597,7 @@
         "plugins",
         "skills"
       ],
-      "stars": 32442,
+      "stars": 32443,
       "forks": 3636,
       "updatedAt": "2026-07-22",
       "score": 94
@@ -617,7 +617,7 @@
         "agents",
         "cross-platform"
       ],
-      "stars": 22955,
+      "stars": 22956,
       "forks": 3123,
       "updatedAt": "2026-07-22",
       "score": 92
@@ -657,10 +657,11 @@
         "awesome",
         "registry"
       ],
-      "stars": 51435,
+      "stars": 51438,
       "forks": 4962,
       "updatedAt": "2026-07-22",
       "score": 93
     }
-  ]
+  ],
+  "lastUpdated": "2026-07-22"
 }

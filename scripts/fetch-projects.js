@@ -98,7 +98,9 @@ async function main() {
     ...c,
     count: projects.filter((p) => p.category === c.id).length,
   }))
-  const output = { categories: countedCategories, projects }
+  const now = new Date()
+  const lastUpdated = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`
+  const output = { categories: countedCategories, projects, lastUpdated }
   fs.writeFileSync(OUTPUT_FILE, JSON.stringify(output, null, 2) + '\n', 'utf-8')
   console.log(`\n已生成 ${OUTPUT_FILE}，共 ${projects.length} 个项目。`)
 }

@@ -88,7 +88,10 @@ function App() {
   const [frontierCategories, setFrontierCategories] = useState<Category[]>([])
   const [newsItems, setNewsItems] = useState<NewsItem[]>([])
   const [newsSources, setNewsSources] = useState<NewsSource[]>([])
-  const [activeCategory, setActiveCategory] = useState<string>('skill')
+  const [lastUpdated, setLastUpdated] = useState<string>('')
+  const [frontierUpdatedAt, setFrontierUpdatedAt] = useState<string>('')
+  const [newsUpdatedAt, setNewsUpdatedAt] = useState<string>('')
+  const [activeCategory, setActiveCategory] = useState<string>('all')
   const [sort, setSort] = useState('最新')
   const [loading, setLoading] = useState(true)
   const [copiedId, setCopiedId] = useState<string | null>(null)
@@ -107,6 +110,7 @@ function App() {
       .then((d) => {
         setProjects(d.projects)
         setCategories(d.categories)
+        setLastUpdated(d.lastUpdated ?? '')
         finish()
       })
       .catch(finish)
@@ -115,6 +119,7 @@ function App() {
       .then((d) => {
         setFrontierItems(d.items)
         setFrontierCategories(d.categories)
+        setFrontierUpdatedAt(d.lastUpdated ?? '')
         finish()
       })
       .catch(finish)
@@ -123,6 +128,7 @@ function App() {
       .then((d) => {
         setNewsItems(d.items)
         setNewsSources(d.sources)
+        setNewsUpdatedAt(d.lastUpdated ?? '')
         finish()
       })
       .catch(finish)
@@ -130,7 +136,7 @@ function App() {
 
   function switchSection(id: string) {
     setActiveSection(id)
-    setActiveCategory(id === 'github' ? 'skill' : 'all')
+    setActiveCategory('all')
     setSort('最新')
   }
 
@@ -179,7 +185,8 @@ function App() {
   )
 
   const total = baseList.length
-  const currentCategory = categories.find((c) => c.id === activeCategory)
+  const currentCount =
+    activeCategory === 'all' ? total : catCounts[activeCategory] ?? 0
   const latestDate = baseList.reduce(
     (max, p) => (p.updatedAt > max ? p.updatedAt : max),
     '',
@@ -257,15 +264,19 @@ function App() {
                       当前类目
                     </div>
                     <div className="text-2xl font-semibold text-ink">
-                      {currentCategory?.count ?? 0}
+                      {currentCount}
                     </div>
                   </div>
                   <div className="text-right">
                     <div className="text-muted text-xs uppercase tracking-wider">
-                      更新于
+                      数据更新于
                     </div>
                     <div className="text-2xl font-semibold text-ink">
-                      {latestDate ? latestDate.replace(/-/g, '/') : '—'}
+                      {lastUpdated
+                        ? lastUpdated.replace(/-/g, '/')
+                        : latestDate
+                          ? latestDate.replace(/-/g, '/')
+                          : '—'}
                     </div>
                   </div>
                 </>
@@ -288,6 +299,16 @@ function App() {
                       {frontierCategories.length}
                     </div>
                   </div>
+                  <div className="text-right">
+                    <div className="text-muted text-xs uppercase tracking-wider">
+                      数据更新于
+                    </div>
+                    <div className="text-2xl font-semibold text-ink">
+                      {frontierUpdatedAt
+                        ? frontierUpdatedAt.replace(/-/g, '/')
+                        : '—'}
+                    </div>
+                  </div>
                 </>
               )}
               {activeSection === 'ainews' && (
@@ -306,6 +327,14 @@ function App() {
                     </div>
                     <div className="text-2xl font-semibold text-ink">
                       {newsSources.length}
+                    </div>
+                  </div>
+                  <div className="text-right">
+                    <div className="text-muted text-xs uppercase tracking-wider">
+                      数据更新于
+                    </div>
+                    <div className="text-2xl font-semibold text-ink">
+                      {newsUpdatedAt ? newsUpdatedAt.replace(/-/g, '/') : '—'}
                     </div>
                   </div>
                 </>
