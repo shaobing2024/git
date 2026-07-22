@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# 构建/类型检查生成的产物（不应进版本库）
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts
