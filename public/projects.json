@@ -3,7 +3,7 @@
     {
       "id": "skill",
       "name": "Skill 精选",
-      "count": 8
+      "count": 15
     },
     {
       "id": "tools",
@@ -58,7 +58,7 @@
       ],
       "stars": 3812,
       "forks": 364,
-      "updatedAt": "2026-07-21",
+      "updatedAt": "2026-07-20",
       "score": 86
     },
     {
@@ -75,9 +75,9 @@
         "agent operations",
         "agent orchestration"
       ],
-      "stars": 5801,
-      "forks": 9,
-      "updatedAt": "2026-07-21",
+      "stars": 5798,
+      "forks": 5,
+      "updatedAt": "2026-07-20",
       "score": 92
     },
     {
@@ -95,9 +95,9 @@
         "autogpt",
         "autonomous agents"
       ],
-      "stars": 28972,
-      "forks": 3207,
-      "updatedAt": "2026-07-21",
+      "stars": 28963,
+      "forks": 3200,
+      "updatedAt": "2026-07-09",
       "score": 95
     },
     {
@@ -117,7 +117,7 @@
       ],
       "stars": 280,
       "forks": 32,
-      "updatedAt": "2026-07-20",
+      "updatedAt": "2026-07-10",
       "score": 78
     },
     {
@@ -135,9 +135,9 @@
         "reinforcement learning",
         "workflow automation"
       ],
-      "stars": 10502,
-      "forks": 962,
-      "updatedAt": "2026-07-21",
+      "stars": 10498,
+      "forks": 89,
+      "updatedAt": "2026-07-20",
       "score": 83
     },
     {
@@ -155,9 +155,9 @@
         "code interpreter",
         "copilot"
       ],
-      "stars": 13060,
-      "forks": 967,
-      "updatedAt": "2026-07-21",
+      "stars": 13056,
+      "forks": 966,
+      "updatedAt": "2026-07-17",
       "score": 94
     },
     {
@@ -175,9 +175,9 @@
         "agent framework",
         "low-code"
       ],
-      "stars": 149604,
-      "forks": 23580,
-      "updatedAt": "2026-07-21",
+      "stars": 149551,
+      "forks": 14000,
+      "updatedAt": "2026-07-19",
       "score": 97
     },
     {
@@ -195,9 +195,9 @@
         "openai compatible",
         "quantization"
       ],
-      "stars": 176559,
-      "forks": 17042,
-      "updatedAt": "2026-07-21",
+      "stars": 176542,
+      "forks": 11000,
+      "updatedAt": "2026-07-20",
       "score": 96
     },
     {
@@ -215,9 +215,9 @@
         "collaboration",
         "hand-drawn"
       ],
-      "stars": 127992,
-      "forks": 14491,
-      "updatedAt": "2026-07-21",
+      "stars": 85000,
+      "forks": 8000,
+      "updatedAt": "2026-07-20",
       "score": 90
     },
     {
@@ -235,9 +235,9 @@
         "outliner",
         "local-first"
       ],
-      "stars": 43996,
-      "forks": 2730,
-      "updatedAt": "2026-07-21",
+      "stars": 33000,
+      "forks": 2000,
+      "updatedAt": "2026-07-18",
       "score": 85
     },
     {
@@ -255,9 +255,9 @@
         "tutorials",
         "roadmap"
       ],
-      "stars": 274477,
-      "forks": 35379,
-      "updatedAt": "2026-07-21",
+      "stars": 230000,
+      "forks": 30000,
+      "updatedAt": "2026-07-20",
       "score": 93
     },
     {
@@ -275,9 +275,9 @@
         "reference",
         "prototyping"
       ],
-      "stars": 451732,
-      "forks": 49714,
-      "updatedAt": "2026-07-21",
+      "stars": 330000,
+      "forks": 35000,
+      "updatedAt": "2026-07-20",
       "score": 92
     },
     {
@@ -295,8 +295,8 @@
         "image generation",
         "local"
       ],
-      "stars": 121640,
-      "forks": 14338,
+      "stars": 60000,
+      "forks": 6500,
       "updatedAt": "2026-07-21",
       "score": 91
     },
@@ -315,9 +315,9 @@
         "easy-to-use",
         "presets"
       ],
-      "stars": 51119,
-      "forks": 8290,
-      "updatedAt": "2026-07-21",
+      "stars": 45000,
+      "forks": 7000,
+      "updatedAt": "2026-07-19",
       "score": 88
     },
     {
@@ -335,8 +335,8 @@
         "no-code",
         "self-hosted"
       ],
-      "stars": 197302,
-      "forks": 59497,
+      "stars": 60000,
+      "forks": 7000,
       "updatedAt": "2026-07-21",
       "score": 90
     },
@@ -355,14 +355,14 @@
         "low-code",
         "rag"
       ],
-      "stars": 152143,
-      "forks": 9616,
+      "stars": 50000,
+      "forks": 5000,
       "updatedAt": "2026-07-21",
       "score": 87
     },
     {
       "id": "openai-skills",
-      "rank": 18,
+      "rank": 17,
       "owner": "openai",
       "repo": "skills",
       "name": "openai/skills",
@@ -375,14 +375,14 @@
         "catalog",
         "reusable"
       ],
-      "stars": 24002,
-      "forks": 1628,
+      "stars": 21600,
+      "forks": 2000,
       "updatedAt": "2026-07-21",
       "score": 95
     },
     {
       "id": "awesome-hermes-agent",
-      "rank": 21,
+      "rank": 18,
       "owner": "0xNyk",
       "repo": "awesome-hermes-agent",
       "name": "0xNyk/awesome-hermes-agent",
@@ -395,14 +395,14 @@
         "plugins",
         "directory"
       ],
-      "stars": 4899,
-      "forks": 344,
-      "updatedAt": "2026-07-21",
+      "stars": 4900,
+      "forks": 400,
+      "updatedAt": "2026-07-18",
       "score": 84
     },
     {
       "id": "openclaw-clawhub",
-      "rank": 24,
+      "rank": 19,
       "owner": "openclaw",
       "repo": "clawhub",
       "name": "openclaw/clawhub",
@@ -415,14 +415,14 @@
         "plugins",
         "registry"
       ],
-      "stars": 9194,
-      "forks": 1428,
-      "updatedAt": "2026-07-21",
+      "stars": 9000,
+      "forks": 800,
+      "updatedAt": "2026-07-20",
       "score": 89
     },
     {
       "id": "anthropics-skills",
-      "rank": 25,
+      "rank": 20,
       "owner": "anthropics",
       "repo": "skills",
       "name": "anthropics/skills",
@@ -435,14 +435,14 @@
         "official",
         "reusable"
       ],
-      "stars": 163093,
-      "forks": 19341,
-      "updatedAt": "2026-07-21",
+      "stars": 5200,
+      "forks": 480,
+      "updatedAt": "2026-07-20",
       "score": 95
     },
     {
       "id": "composio-awesome-claude-skills",
-      "rank": 26,
+      "rank": 21,
       "owner": "ComposioHQ",
       "repo": "awesome-claude-skills",
       "name": "ComposioHQ/awesome-claude-skills",
@@ -455,14 +455,14 @@
         "awesome",
         "directory"
       ],
-      "stars": 68324,
-      "forks": 7753,
-      "updatedAt": "2026-07-21",
+      "stars": 1200,
+      "forks": 90,
+      "updatedAt": "2026-07-20",
       "score": 86
     },
     {
       "id": "jiaqing-codex-skills",
-      "rank": 27,
+      "rank": 22,
       "owner": "Jiaqing-Zhang",
       "repo": "codex-skills",
       "name": "Jiaqing-Zhang/codex-skills",
@@ -477,12 +477,12 @@
       ],
       "stars": 45,
       "forks": 8,
-      "updatedAt": "2026-04-06",
+      "updatedAt": "2026-07-20",
       "score": 80
     },
     {
       "id": "farmage-opencode-skills",
-      "rank": 28,
+      "rank": 23,
       "owner": "farmage",
       "repo": "opencode-skills",
       "name": "farmage/opencode-skills",
@@ -495,14 +495,14 @@
         "workflow",
         "multi-domain"
       ],
-      "stars": 77,
-      "forks": 15,
-      "updatedAt": "2026-07-20",
+      "stars": 480,
+      "forks": 35,
+      "updatedAt": "2026-07-18",
       "score": 84
     },
     {
       "id": "thearchitectit-awesome-opencode-skills",
-      "rank": 29,
+      "rank": 24,
       "owner": "TheArchitectit",
       "repo": "awesome-opencode-skills",
       "name": "TheArchitectit/awesome-opencode-skills",
@@ -515,10 +515,152 @@
         "awesome",
         "mcp"
       ],
-      "stars": 129,
-      "forks": 15,
-      "updatedAt": "2026-07-21",
+      "stars": 210,
+      "forks": 18,
+      "updatedAt": "2026-07-18",
       "score": 79
+    },
+    {
+      "id": "obra-superpowers",
+      "rank": 25,
+      "owner": "obra",
+      "repo": "superpowers",
+      "name": "obra/superpowers",
+      "description": "最流行的 Claude Code 技能框架与软件开发方法论，以 TDD、YAGNI、DRY 为核心，用子代理驱动开发：先写规格、生成可评审的实现计划，再让子代理并行执行并自审。被 Anthropic 官方插件市场收录，跨 Claude Code、Codex、Cursor、Gemini CLI 等多平台可用。",
+      "recommendation": "创造者可用它建立自己的「规格驱动开发」工作流，研究其 subagent 编排与 skill 体系，作为 Agent 协作开发方法论的权威范本。",
+      "category": "skill",
+      "tags": [
+        "claude",
+        "skills",
+        "framework",
+        "subagent",
+        "methodology"
+      ],
+      "stars": 258835,
+      "forks": 23073,
+      "updatedAt": "2026-07-22",
+      "score": 99
+    },
+    {
+      "id": "affaan-ecc",
+      "rank": 26,
+      "owner": "affaan-m",
+      "repo": "ECC",
+      "name": "affaan-m/ECC",
+      "description": "Agent 性能优化系统，为 Claude Code、Codex、OpenCode、Cursor 等提供技能、本能、记忆、安全与「研究优先」开发范式；含 AgentShield 安全审计，跨多个 AI 编码工具通用，是当前 star 最高的智能体技能全家桶。",
+      "recommendation": "想一站式接入最庞大的技能/代理集合？ECC 覆盖五大生态，创造者可直接复用其技能包与安全审计思路，或作为「跨平台 Agent 性能框架」的二创起点。",
+      "category": "skill",
+      "tags": [
+        "claude",
+        "codex",
+        "opencode",
+        "skills",
+        "cross-platform"
+      ],
+      "stars": 231923,
+      "forks": 35386,
+      "updatedAt": "2026-07-22",
+      "score": 98
+    },
+    {
+      "id": "hesreallyhim-awesome-claude-code",
+      "rank": 27,
+      "owner": "hesreallyhim",
+      "repo": "awesome-claude-code",
+      "name": "hesreallyhim/awesome-claude-code",
+      "description": "Claude Code 生态最权威的精选清单，手工甄选顶级技能、子代理、状态栏、开发工具与插件，是发现新资源的首选索引。",
+      "recommendation": "创造者可按场景从这份清单里淘技能与插件，研究社区最佳实践，或作为自己「技能市场」选题与二创的参考源。",
+      "category": "skill",
+      "tags": [
+        "claude",
+        "skills",
+        "awesome",
+        "directory"
+      ],
+      "stars": 50590,
+      "forks": 4401,
+      "updatedAt": "2026-07-22",
+      "score": 95
+    },
+    {
+      "id": "anthropics-claude-plugins-official",
+      "rank": 28,
+      "owner": "anthropics",
+      "repo": "claude-plugins-official",
+      "name": "anthropics/claude-plugins-official",
+      "description": "Anthropic 官方维护的高质量 Claude Code 插件目录，集中托管经过审核的插件与技能（如 Telegram、GitHub、Chrome DevTools 等），是官方能力的权威分发源。",
+      "recommendation": "想接官方插件能力的创造者，可在此直接取用审核过的插件与技能，或研究其「官方插件市场」的准入与组织方式。",
+      "category": "skill",
+      "tags": [
+        "claude",
+        "official",
+        "plugins",
+        "skills"
+      ],
+      "stars": 32442,
+      "forks": 3636,
+      "updatedAt": "2026-07-22",
+      "score": 94
+    },
+    {
+      "id": "alirezarezvani-claude-skills",
+      "rank": 29,
+      "owner": "alirezarezvani",
+      "repo": "claude-skills",
+      "name": "alirezarezvani/claude-skills",
+      "description": "个人维护但体量惊人的 Claude Code 技能合集：345 个技能 + 30+ 子代理 + 70+ 自定义命令，横跨工程、营销、产品、合规、研究、商务与日常生产力，并兼容 Codex、Gemini CLI、Cursor 等多平台。",
+      "recommendation": "需要「开箱即用」技能库的创造者，可从中按职业/场景挑选技能包，或参考其超大规模组织方式构建自己的技能体系。",
+      "category": "skill",
+      "tags": [
+        "claude",
+        "skills",
+        "agents",
+        "cross-platform"
+      ],
+      "stars": 22955,
+      "forks": 3123,
+      "updatedAt": "2026-07-22",
+      "score": 92
+    },
+    {
+      "id": "voltagent-awesome-codex-subagents",
+      "rank": 30,
+      "owner": "VoltAgent",
+      "repo": "awesome-codex-subagents",
+      "name": "VoltAgent/awesome-codex-subagents",
+      "description": "专为 OpenAI Codex 整理的 130+ 个专项子代理合集，覆盖 API 设计、后端/前端/全栈开发、图架构、移动端、UI 等细分场景，每个子代理都是面向 Codex 精心编写的 .toml 配置。",
+      "recommendation": "Codex 用户的能力加速器：创造者可直接克隆安装这些专项子代理，或参考其「一个场景=一个子代理」的结构封装自己的 Codex 工作流。",
+      "category": "skill",
+      "tags": [
+        "codex",
+        "subagents",
+        "skills",
+        "awesome"
+      ],
+      "stars": 5779,
+      "forks": 634,
+      "updatedAt": "2026-07-22",
+      "score": 88
+    },
+    {
+      "id": "voltagent-awesome-openclaw-skills",
+      "rank": 31,
+      "owner": "VoltAgent",
+      "repo": "awesome-openclaw-skills",
+      "name": "VoltAgent/awesome-openclaw-skills",
+      "description": "OpenClaw 技能的精选合集，从官方 Skills Registry 中筛选并分类出 5,400+ 个高质量技能（Web/前端、编码代理、Git、DevOps、浏览器自动化、图像视频、AI/LLM、数据分析等），是 OpenClaw 技能的海量索引。",
+      "recommendation": "OpenClaw 用户找技能的首选目录：创造者可按分类快速定位所需技能，或作为「技能市场」选题与审计的参考源。",
+      "category": "skill",
+      "tags": [
+        "openclaw",
+        "skills",
+        "awesome",
+        "registry"
+      ],
+      "stars": 51435,
+      "forks": 4962,
+      "updatedAt": "2026-07-22",
+      "score": 93
     }
   ]
 }

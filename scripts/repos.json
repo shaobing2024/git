@@ -447,6 +447,127 @@
       "forks": 18,
       "updatedAt": "2026-07-18",
       "score": 79
+    },
+    {
+      "id": "obra-superpowers",
+      "name": "obra/superpowers",
+      "description": "最流行的 Claude Code 技能框架与软件开发方法论，以 TDD、YAGNI、DRY 为核心，用子代理驱动开发：先写规格、生成可评审的实现计划，再让子代理并行执行并自审。被 Anthropic 官方插件市场收录，跨 Claude Code、Codex、Cursor、Gemini CLI 等多平台可用。",
+      "recommendation": "创造者可用它建立自己的「规格驱动开发」工作流，研究其 subagent 编排与 skill 体系，作为 Agent 协作开发方法论的权威范本。",
+      "category": "skill",
+      "tags": [
+        "claude",
+        "skills",
+        "framework",
+        "subagent",
+        "methodology"
+      ],
+      "stars": 258835,
+      "forks": 23073,
+      "updatedAt": "2026-07-22",
+      "score": 99
+    },
+    {
+      "id": "affaan-ecc",
+      "name": "affaan-m/ECC",
+      "description": "Agent 性能优化系统，为 Claude Code、Codex、OpenCode、Cursor 等提供技能、本能、记忆、安全与「研究优先」开发范式；含 AgentShield 安全审计，跨多个 AI 编码工具通用，是当前 star 最高的智能体技能全家桶。",
+      "recommendation": "想一站式接入最庞大的技能/代理集合？ECC 覆盖五大生态，创造者可直接复用其技能包与安全审计思路，或作为「跨平台 Agent 性能框架」的二创起点。",
+      "category": "skill",
+      "tags": [
+        "claude",
+        "codex",
+        "opencode",
+        "skills",
+        "cross-platform"
+      ],
+      "stars": 231923,
+      "forks": 35386,
+      "updatedAt": "2026-07-22",
+      "score": 98
+    },
+    {
+      "id": "hesreallyhim-awesome-claude-code",
+      "name": "hesreallyhim/awesome-claude-code",
+      "description": "Claude Code 生态最权威的精选清单，手工甄选顶级技能、子代理、状态栏、开发工具与插件，是发现新资源的首选索引。",
+      "recommendation": "创造者可按场景从这份清单里淘技能与插件，研究社区最佳实践，或作为自己「技能市场」选题与二创的参考源。",
+      "category": "skill",
+      "tags": [
+        "claude",
+        "skills",
+        "awesome",
+        "directory"
+      ],
+      "stars": 50590,
+      "forks": 4401,
+      "updatedAt": "2026-07-22",
+      "score": 95
+    },
+    {
+      "id": "anthropics-claude-plugins-official",
+      "name": "anthropics/claude-plugins-official",
+      "description": "Anthropic 官方维护的高质量 Claude Code 插件目录，集中托管经过审核的插件与技能（如 Telegram、GitHub、Chrome DevTools 等），是官方能力的权威分发源。",
+      "recommendation": "想接官方插件能力的创造者，可在此直接取用审核过的插件与技能，或研究其「官方插件市场」的准入与组织方式。",
+      "category": "skill",
+      "tags": [
+        "claude",
+        "official",
+        "plugins",
+        "skills"
+      ],
+      "stars": 32442,
+      "forks": 3636,
+      "updatedAt": "2026-07-22",
+      "score": 94
+    },
+    {
+      "id": "alirezarezvani-claude-skills",
+      "name": "alirezarezvani/claude-skills",
+      "description": "个人维护但体量惊人的 Claude Code 技能合集：345 个技能 + 30+ 子代理 + 70+ 自定义命令，横跨工程、营销、产品、合规、研究、商务与日常生产力，并兼容 Codex、Gemini CLI、Cursor 等多平台。",
+      "recommendation": "需要「开箱即用」技能库的创造者，可从中按职业/场景挑选技能包，或参考其超大规模组织方式构建自己的技能体系。",
+      "category": "skill",
+      "tags": [
+        "claude",
+        "skills",
+        "agents",
+        "cross-platform"
+      ],
+      "stars": 22955,
+      "forks": 3123,
+      "updatedAt": "2026-07-22",
+      "score": 92
+    },
+    {
+      "id": "voltagent-awesome-codex-subagents",
+      "name": "VoltAgent/awesome-codex-subagents",
+      "description": "专为 OpenAI Codex 整理的 130+ 个专项子代理合集，覆盖 API 设计、后端/前端/全栈开发、图架构、移动端、UI 等细分场景，每个子代理都是面向 Codex 精心编写的 .toml 配置。",
+      "recommendation": "Codex 用户的能力加速器：创造者可直接克隆安装这些专项子代理，或参考其「一个场景=一个子代理」的结构封装自己的 Codex 工作流。",
+      "category": "skill",
+      "tags": [
+        "codex",
+        "subagents",
+        "skills",
+        "awesome"
+      ],
+      "stars": 5779,
+      "forks": 634,
+      "updatedAt": "2026-07-22",
+      "score": 88
+    },
+    {
+      "id": "voltagent-awesome-openclaw-skills",
+      "name": "VoltAgent/awesome-openclaw-skills",
+      "description": "OpenClaw 技能的精选合集，从官方 Skills Registry 中筛选并分类出 5,400+ 个高质量技能（Web/前端、编码代理、Git、DevOps、浏览器自动化、图像视频、AI/LLM、数据分析等），是 OpenClaw 技能的海量索引。",
+      "recommendation": "OpenClaw 用户找技能的首选目录：创造者可按分类快速定位所需技能，或作为「技能市场」选题与审计的参考源。",
+      "category": "skill",
+      "tags": [
+        "openclaw",
+        "skills",
+        "awesome",
+        "registry"
+      ],
+      "stars": 51435,
+      "forks": 4962,
+      "updatedAt": "2026-07-22",
+      "score": 93
     }
   ]
 }
