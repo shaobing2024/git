@@ -10,4 +10,36 @@
     @apply bg-paper text-ink antialiased;
     font-family: "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
   }
+  /* A1: 全局键盘焦点态（accent 描边，仅键盘聚焦显示） */
+  :focus-visible {
+    outline: 2px solid #c65d3b;
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+  /* A3: 跳到主内容链接（仅键盘 Tab 聚焦时可见） */
+  .skip-link {
+    position: absolute;
+    left: -9999px;
+    top: 0;
+    z-index: 50;
+    background: #2a2725;
+    color: #faf8f5;
+    padding: 0.5rem 1rem;
+    border-radius: 0 0 0.5rem 0;
+  }
+  .skip-link:focus {
+    left: 0;
+  }
+}
+
+/* A2: 尊重用户的「减少动效」偏好（前庭敏感 / 偏好静态） */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

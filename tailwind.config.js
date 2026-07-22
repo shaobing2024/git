@@ -12,7 +12,7 @@ export default {
         'card-border': '#ede8e3',
       },
       fontFamily: {
-        display: ['"Playfair Display"', 'Georgia', 'serif'],
+        display: ['"Playfair Display"', '"Noto Serif SC"', 'Georgia', 'serif'],
         sans: ['"PingFang SC"', '"Microsoft YaHei"', 'system-ui', 'sans-serif'],
       },
     },

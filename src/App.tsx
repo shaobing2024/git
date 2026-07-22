@@ -208,6 +208,9 @@ function App() {
 
   return (
     <div className="min-h-screen flex">
+      <a href="#main" className="skip-link">
+        跳到主内容
+      </a>
       {/* Sidebar */}
       <aside className="w-16 lg:w-20 border-r border-card-border bg-white/50 sticky top-0 h-screen flex flex-col items-center py-6 z-20">
         <div className="mb-8 p-2 bg-ink text-paper rounded-lg">
@@ -222,10 +225,10 @@ function App() {
                 key={item.id}
                 title={item.label}
                 onClick={() => switchSection(item.id)}
-                className={`p-2.5 rounded-xl transition-colors ${
+                className={`p-2.5 min-h-[44px] min-w-[44px] rounded-xl transition-colors ${
                   isActive
                     ? 'bg-accent-soft text-accent'
-                    : 'text-muted hover:bg-stone-100 hover:text-ink'
+                    : 'text-muted hover:bg-card-border/40 hover:text-ink'
                 }`}
               >
                 <Icon className="w-5 h-5" />
@@ -236,7 +239,7 @@ function App() {
       </aside>
 
       {/* Main */}
-      <main className="flex-1 min-w-0">
+      <main id="main" className="flex-1 min-w-0">
         {/* Header */}
         <header className="px-6 lg:px-10 py-8 border-b border-card-border">
           <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6">
@@ -437,7 +440,7 @@ function App() {
                           #{String(p.rank).padStart(2, '0')}
                         </span>
                         {p.stars > 10000 && (
-                          <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-medium bg-amber-50 text-amber-600 border border-amber-200 whitespace-nowrap">
+                          <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-medium bg-accent-soft text-accent border border-accent/20 whitespace-nowrap">
                             <Flame className="w-3 h-3" />
                             万星+
                           </span>
@@ -447,7 +450,7 @@ function App() {
                             <a
                               href={`https://github.com/${p.name}`}
                               target="_blank"
-                              rel="noreferrer"
+                              rel="noopener noreferrer"
                             >
                               {p.name}
                             </a>
@@ -472,7 +475,7 @@ function App() {
                         {p.tags.map((tag) => (
                           <span
                             key={tag}
-                            className="inline-flex items-center px-2.5 py-1 rounded-full text-xs bg-stone-100 text-muted border border-card-border"
+                            className="inline-flex items-center px-2.5 py-1 rounded-full text-xs bg-card-border/40 text-muted border border-card-border"
                           >
                             {tag}
                           </span>
@@ -500,7 +503,7 @@ function App() {
                         <div className="flex items-center gap-2">
                           <button
                             onClick={() => handleShare(p)}
-                            className="flex items-center gap-1.5 px-2 py-1.5 rounded-md hover:bg-stone-100 text-muted hover:text-ink transition-colors"
+                            className="flex items-center gap-1.5 px-2 py-1.5 rounded-md hover:bg-card-border/40 text-muted hover:text-ink transition-colors"
                             aria-label="复制链接"
                             title={copiedId === p.id ? '已复制链接' : '复制链接'}
                           >
@@ -608,7 +611,7 @@ function App() {
                         </span>
                         <div className="flex-1 min-w-0">
                           <h3 className="font-semibold text-ink truncate group-hover:text-accent transition-colors">
-                            <a href={p.url} target="_blank" rel="noreferrer">
+                            <a href={p.url} target="_blank" rel="noopener noreferrer">
                               {p.name}
                             </a>
                           </h3>
@@ -635,7 +638,7 @@ function App() {
                         {p.tags.map((tag) => (
                           <span
                             key={tag}
-                            className="inline-flex items-center px-2.5 py-1 rounded-full text-xs bg-stone-100 text-muted border border-card-border"
+                            className="inline-flex items-center px-2.5 py-1 rounded-full text-xs bg-card-border/40 text-muted border border-card-border"
                           >
                             {tag}
                           </span>
@@ -646,7 +649,7 @@ function App() {
                         <a
                           href={p.url}
                           target="_blank"
-                          rel="noreferrer"
+                          rel="noopener noreferrer"
                           className="flex items-center justify-center gap-2 w-full py-2 rounded-lg bg-ink text-paper text-sm font-medium hover:opacity-90 transition-opacity"
                         >
                           <ExternalLink className="w-4 h-4" />
@@ -675,7 +678,7 @@ function App() {
                     key={s.name}
                     href={s.url}
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                     className="flex items-center gap-1.5 px-3 py-2 rounded-full text-sm border border-card-border bg-white text-ink hover:border-accent hover:text-accent transition-colors"
                   >
                     <Globe className="w-3.5 h-3.5" />
@@ -700,6 +703,11 @@ function App() {
                     />
                   ))}
                 </div>
+              ) : newsSorted.length === 0 ? (
+                <div className="py-24 flex flex-col items-center justify-center text-muted">
+                  <Radio className="w-8 h-8 mb-3 opacity-40" />
+                  <p>暂无动态。</p>
+                </div>
               ) : (
                 <div className="space-y-4">
                   {newsSorted.map((n) => (
@@ -716,7 +724,7 @@ function App() {
                         </span>
                       </div>
                       <h3 className="font-semibold text-ink text-lg mb-1.5 group-hover:text-accent transition-colors">
-                        <a href={n.url} target="_blank" rel="noreferrer">
+                        <a href={n.url} target="_blank" rel="noopener noreferrer">
                           {n.title}
                         </a>
                       </h3>
