@@ -35,6 +35,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npm run fetch
 
+      - name: Fetch latest AI news (RSS)
+        run: npm run fetch:news
+
       - name: Build site
         run: npm run build
 
