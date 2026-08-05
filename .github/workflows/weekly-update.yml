@@ -1,0 +1,52 @@
+name: Weekly data refresh & deploy
+
+# 定时 + 手动触发
+on:
+  schedule:
+    # 每周日 北京时间 03:00（= UTC 周六 19:00）自动刷新数据并重新部署
+    - cron: '0 19 * * 6'
+  workflow_dispatch: {}
+
+# 允许工作流把改动推回 main（GitHub Pages 从 main:/docs 提供站点）
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Fetch latest GitHub stats
+        # 默认用仓库自带的 GITHUB_TOKEN（对公开仓库只读足够，5000 次/小时）；
+        # 若需要抓取私有仓库，可在仓库 Settings → Secrets 添加 FETCH_GITHUB_TOKEN（PAT）自动兜底
+        env:
+          GITHUB_TOKEN: ${{ secrets.FETCH_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
+        run: npm run fetch
+
+      - name: Build site
+        run: npm run build
+
+      - name: Commit & push if data changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes — skip deploy"
+          else
+            git commit -m "chore: weekly data refresh (automated)"
+            git push origin main
+          fi
