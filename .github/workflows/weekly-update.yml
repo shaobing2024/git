@@ -30,10 +30,9 @@ jobs:
         run: npm ci
 
       - name: Fetch latest GitHub stats
-        # 默认用仓库自带的 GITHUB_TOKEN（对公开仓库只读足够，5000 次/小时）；
-        # 若需要抓取私有仓库，可在仓库 Settings → Secrets 添加 FETCH_GITHUB_TOKEN（PAT）自动兜底
+        # 使用仓库自带的 GITHUB_TOKEN（对公开仓库只读足够，5000 次/小时）
         env:
-          GITHUB_TOKEN: ${{ secrets.FETCH_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npm run fetch
 
       - name: Build site
