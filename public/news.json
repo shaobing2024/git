@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-08",
+  "lastUpdated": "2026-08-15",
   "sources": [
     {
       "name": "量子位",
@@ -21,109 +21,109 @@
   "items": [
     {
       "id": "n-68747470733a",
-      "title": "奥特曼的ChatGPT育儿大法，捅了马蜂窝",
+      "title": "至知研究院提出大模型可解释性新路线：拆权重，数据成本不到1%",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/08/468631.html",
-      "date": "2026-08-08",
-      "summary": "这就有些尴尬了。",
+      "url": "https://www.qbitai.com/2026/08/473876.html",
+      "date": "2026-08-15",
+      "summary": "理解大模型，无需再训练一个替代网络",
       "tag": "大模型"
     },
     {
       "id": "n-68747470733a",
-      "title": "中国NeoLab时刻：EverMind用3篇论文，交出全栈自进化首份答卷",
+      "title": "根治AI音乐通病！这家国产音乐模型正面挑战SUNO",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/08/468555.html",
-      "date": "2026-08-08",
-      "summary": "海外团队纷纷下注，NeoLab浪潮狂飙",
+      "url": "https://www.qbitai.com/2026/08/473866.html",
+      "date": "2026-08-15",
+      "summary": "音潮API限时免费开放",
       "tag": "AI"
     },
     {
       "id": "n-68747470733a",
-      "title": "Jeff Dean创业BP曝光，杨植麟也在上面！硅谷VC抢破头送钱",
+      "title": "源神启动！一张消费级显卡跑“Opus级”Agent，Qwen3.8-27B多项榜单反超Claude",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/08/468498.html",
-      "date": "2026-08-08",
-      "summary": "「我，Jeff Dean，打钱」",
+      "url": "https://www.qbitai.com/2026/08/473669.html",
+      "date": "2026-08-15",
+      "summary": "推理能力还能自定义",
+      "tag": "大模型"
+    },
+    {
+      "id": "n-68747470733a",
+      "title": "DeepSeek Harness插件一夜燃爆GitHub：长期记忆、电子宠物、4399小游戏全来了",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/08/473597.html",
+      "date": "2026-08-15",
+      "summary": "大家已经给DeepSeek装上了啥",
       "tag": "AI"
     },
     {
       "id": "n-68747470733a",
-      "title": "都学坏了！奥特曼亲手封锁最强模型Astra，重蹈Mythos覆辙",
+      "title": "对话郎咸朋：用机器人创业重做一次“百万智驾量产”",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/08/468462.html",
-      "date": "2026-08-08",
-      "summary": "唉，赶紧整完快点发布吧。。。",
+      "url": "https://www.qbitai.com/2026/08/473407.html",
+      "date": "2026-08-15",
+      "summary": "1.9万字全文实录",
       "tag": "AI"
     },
     {
       "id": "n-68747470733a",
-      "title": "谷歌急了：AI核心员工全给我搬回硅谷坐班！",
+      "title": "高效低成本开发，商业增长回报高，鸿蒙元服务背后的“开发厨房”让开发者按时吃饭！",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/08/468398.html",
-      "date": "2026-08-08",
-      "summary": "再花15亿美元买现成AI编程团队",
+      "url": "https://www.qbitai.com/2026/08/473395.html",
+      "date": "2026-08-15",
+      "summary": "对开发者而言，ASCF带来的不仅是“按时吃饭”的从容，更是低成本投入、高效率交付、高回报增长的完整商业闭环。",
       "tag": "AI"
     },
     {
       "id": "n-68747470733a",
-      "title": "Kimi K3也失控了…学霸AI逃离沙箱只为找答案",
+      "title": "刚刚，Qwen3.8-27B 开源了！家用显卡也能跑",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/08/468338.html",
-      "date": "2026-08-08",
-      "summary": "啊，这真是个AI“失控”的夏天",
+      "url": "https://www.qbitai.com/2026/08/473379.html",
+      "date": "2026-08-14",
+      "summary": "所有人都可免费下载部署及商用。",
+      "tag": "开源"
+    },
+    {
+      "id": "n-68747470733a",
+      "title": "7亿年薪留不住！余家辉离职Meta创业",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/08/473261.html",
+      "date": "2026-08-14",
+      "summary": "真就只待了一年",
       "tag": "AI"
     },
     {
       "id": "n-68747470733a",
-      "title": "阿里推出国内首个AI语音平台CosyVoice Studio，将语义理解融入语音能力",
+      "title": "谷歌开始肢解DeepMind，数个团队被划归总部",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/08/468324.html",
-      "date": "2026-08-07",
-      "summary": "AI语音“听、说、创”一站式满足",
+      "url": "https://www.qbitai.com/2026/08/473153.html",
+      "date": "2026-08-14",
+      "summary": "布林亲自下场督战",
       "tag": "AI"
     },
     {
       "id": "n-68747470733a",
-      "title": "AI批量轰炸苹果bug赏金计划，审核团队已下线",
+      "title": "太初元碁助力国家级“AI+教育”大赛 “AI+加速卡模型适配赛道”开启招募",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/08/466738.html",
-      "date": "2026-08-07",
+      "url": "https://www.qbitai.com/2026/08/473149.html",
+      "date": "2026-08-14",
       "summary": "",
       "tag": "AI"
     },
     {
       "id": "n-68747470733a",
-      "title": "openJiuwen发布业界首个企业级智能体分布式蜂群架构，联合邮储成功落地金融生产环境",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/08/468305.html",
-      "date": "2026-08-07",
-      "summary": "从「能用」走向「规模化落地」",
-      "tag": "Agent"
-    },
-    {
-      "id": "n-68747470733a",
-      "title": "AI圈功能狂卷，付费寥寥，Keep正在试一条新路",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/08/467878.html",
-      "date": "2026-08-07",
-      "summary": "AI卷向运动赛道，Keep的新答卷能否跑通？",
-      "tag": "AI"
-    },
-    {
-      "id": "n-68747470733a",
-      "title": "TutorMoments: Do AI tutors know when to help and when to hold back?",
+      "title": "State of Open Models: Summer 2026 Observations",
       "source": "Hugging Face Blog",
-      "url": "https://huggingface.co/blog/allenai/tutormoments",
-      "date": "2026-08-07",
+      "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+      "date": "2026-08-14",
       "summary": "",
-      "tag": "AI"
+      "tag": "大模型"
     },
     {
       "id": "n-68747470733a",
-      "title": "Baseten on Hugging Face Inference Providers 🔥",
+      "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
       "source": "Hugging Face Blog",
-      "url": "https://huggingface.co/blog/baseten",
-      "date": "2026-08-06",
+      "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+      "date": "2026-08-13",
       "summary": "",
       "tag": "开源"
     }
